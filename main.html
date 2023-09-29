@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cookbook</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@500;600&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles__main.css">
+</head>
+<section class="top-addictional">
+    <div class="top__containter">
+        <span class="toggle-bttn">
+            <span class="toggle-bttn__inner"></span>
+        </span>
+    </div>
+</section>
+<header class="header">
+    <div class="header__title">
+        <a href="#">Cookbook</a>
+    </div>
+    <div class="header__nav">
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__item"><a href="#">Home</a></li>
+                <li class="menu__item"><a href="#">About</a></li>
+                <li class="menu__item"><a href="#">All Recipes</a><i class="down-array"></i></li>
+                <li class="menu__item"><a href="#">Categories</a></li>
+                <li class="menu__item"><a href="#">Blog</a></li>
+                <li class="menu__item"><a href="#">Shop</a></li>
+                <li class="menu__item"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="header__icon">
+        <ul class="icon__list">
+            <li class="icon__item"><a href="#"><img src="assets/nav__icon/shopping-cart.png" alt=""></a></li>
+            <li class="icon__item"><a href="#"><img src="assets/nav__icon/magnifying-glass.png" alt="assets/"></a></li>
+            <li class="icon__item"><a href="#"><img src="assets/nav__icon/menu.png" alt=""></a></li>
+        </ul>
+    </div>
+</header>
+<body>
+    <section class="starting">
+        <div class="starting__container">
+            <img src="assets/recipe__img/13.webp" alt="" class="slide__img">
+            <div class="slide-overlay">
+                <h3>Featured recipes</h3>
+                <h2 class="slide__title">Rosemary & Honey Whiskey Cocktail</h2>
+                <div class="entry-recipe-details">
+                    <span class="meta__time">15 min</span>
+                    <span class="meta__difficulty">Easy</span>
+                </div>
+                <p>This is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people who need some type to visualize what the actual copy might look like if i...</p>
+                <div class="slide-footer">
+                    <span class="author__wrapper">
+                        <img src="assets/author__avatar/pavel_ciorici.png" alt="" class="post__author-img">
+                        <span class="post__info">
+                            <span class="post__author">Pavel Ciorici</span>
+                            <span class="post__date">April 13, 2022</span>
+                        </span>
+                    </span>
+                </div>
+                <div class="slider-prevnext">
+                    <div class="prevnext-wrapper">
+                        <button type="button" title="previous" style aria-disabled="true">
+                            <svg width="16" height="12" viewBox="0 0 16 12" xmlns="http://www.w3.org/2000/svg"> <path d="M3.83 5L7.41 1.41L6 0L0 6L6 12L7.41 10.59L3.83 7L16 7V5L3.83 5Z" fill="currentColor"></path> </svg>
+                        </button>
+                        <span class="slider-prevnext-number">1/5</span>
+                        <button type="button" title="next">
+                            <svg width="16" height="12" viewBox="0 0 16 12" xmlns="http://www.w3.org/2000/svg"> <path d="M12.17 7L8.59 10.59L10 12L16 6L10 -5.24537e-07L8.59 1.41L12.17 5L6.11959e-07 5L4.37114e-07 7L12.17 7Z" fill="currentColor"></path> </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3 class="starting-footer__title" >Popular recipes</h3>
+        <div class="recipes-s__container">
+            <div class="post__inner-container">
+                <img src="assets/recipe__img/2.webp" alt="">
+                <div class="recipe-info">
+                    <div class="categorie-name">Appetizers</div>
+                    <div class="recipe-title">Grilled Chicken Mushroom Toast</div>
+                </div>
+            </div>
+            <div class="post__inner-container">
+                <img src="assets/recipe__img/8.webp" alt="">
+                <div class="recipe-info">
+                    <div class="categorie-name">Desserts</div>
+                    <div class="recipe-title">Pistachio Pavlova Meringue Cakes</div>
+                </div>
+            </div>
+            <div class="post__inner-container">
+                <img src="assets/recipe__img/12.webp" alt="">
+                <div class="recipe-info">
+                    <div class="categorie-name">Soups</div>
+                    <div class="recipe-title">Roasted Carrot Soup</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="recipes">
+        <div class="recipes__container">
+            <h2 class="section__title">Recipes</h2>
+            <div class="recipes__grid">
+                <div class="post__container">
+                    <article id="post-1" class="post">
+                        <img src="assets/recipe__img/1.webp" alt="" class="post__img">
+                        <div class="post-info">
+                            <span class="post__categories"><a href="#">Cocktails</a></span>
+                            <h3 class="post__title"><a href="#">Rosemary & Honey Whiskey Cocktail</a>
+                            </h3>
+                            <div class="post__meta">
+                                <span class="meta__time">15 min</span>
+                                <span class="meta__difficulty">Easy</span>
+                            </div>
+                            <span class="author__wrapper">
+                                <img src="assets/author__avatar/pavel_ciorici.png" alt="" class="post__author-img">
+                                <span class="post__info">
+                                    <span class="post__author">Pavel Ciorici</span>
+                                    <span class="post__date">April 13, 2022</span>
+                                </span>
+                            </span>
+                        </div> 
+                    </article>
+                </div>
+                <div class="post__container">
+                    <article id="post-2" class="post">
+                        <img src="assets/recipe__img/2.webp" alt="" class="post__img">
+                        <div class="post-info">
+                            <span class="post__categories"><a href="#">Appetizers</a></span>
+                            <h3 class="post__title"><a href="#">Grilled Chicken Mushroom Toast</a>
+                            </h3>
+                            <div class="post__meta">
+                                <span class="meta__time">20 min</span>
+                                <span class="meta__difficulty">Easy</span>
+                            </div>
+                            <span class="author__wrapper">
+                                <img src="assets/author__avatar/erik_brown.png" alt="" class="post__author-img">
+                                <span class="post__info">
+                                    <span class="post__author">Erik Brown</span>
+                                    <span class="post__date">April 10, 2022</span>
+                                </span>
+                            </span>
+                        </div> 
+                    </article>
+                </div>
+                <div class="post__container">
+                    <article id="post-3" class="post">
+                        <img src="assets/recipe__img/3.webp" alt="" class="post__img">
+                        <div class="post-info">
+                            <span class="post__categories"><a href="#">Salads</a></span>
+                            <h3 class="post__title"><a href="#">Mediterranean Chickpea Salad</a>
+                            </h3>
+                            <div class="post__meta">
+                                <span class="meta__time">30 min</span>
+                                <span class="meta__difficulty">Easy</span>
+                            </div>
+                            <span class="author__wrapper">
+                                <img src="assets/author__avatar/erik_brown.png" alt="" class="post__author-img">
+                                <span class="post__info">
+                                    <span class="post__author">Erik Brown</span>
+                                    <span class="post__date">March 22, 2022</span>
+                                </span>
+                            </span>
+                        </div> 
+                    </article>
+                </div>
+                <div class="post__container">
+                    <article id="post-4" class="post">
+                        <img src="assets/recipe__img/4.webp" alt="" class="post__img">
+                        <div class="post-info">
+                            <span class="post__categories"><a href="#">Cocktails</a></span>
+                            <h3 class="post__title"><a href="#">Moscow Mule Cocktail</a>
+                            </h3>
+                            <div class="post__meta">
+                                <span class="meta__time">10 min</span>
+                                <span class="meta__difficulty">Easy</span>
+                            </div>
+                            <span class="author__wrapper">
+                                <img src="assets/author__avatar/erik_brown.png" alt="" class="post__author-img">
+                                <span class="post__info">
+                                    <span class="post__author">Erik Brown</span>
+                                    <span class="post__date">March 13, 2022</span>
+                                </span>
+                            </span>
+                        </div> 
+                    </article>
+                </div>
+                <div class="post__container">
+                    <article id="post-5" class="post">
+                        <img src="assets/recipe__img/5.webp" alt="" class="post__img">
+                        <div class="post-info">
+                            <span class="post__categories"><a href="#">Cocktails</a></span>
+                            <h3 class="post__title"><a href="#">Blood Orange Mimosa</a>
+                            </h3>
+                            <div class="post__meta">
+                                <span class="meta__time">15 min</span>
+                                <span class="meta__difficulty">Easy</span>
+                            </div>
+                            <span class="author__wrapper">
+                                <img src="assets/author__avatar/erik_brown.png" alt="" class="post__author-img">
+                                <span class="post__info">
+                                    <span class="post__author">Erik Brown</span>
+                                    <span class="post__date">February 10, 2022</span>
+                                </span>
+                            </span>
+                        </div> 
+                    </article>
+                </div>
+                <div class="post__container">
+                    <article id="post-6" class="post">
+                        <img src="assets/recipe__img/6.webp" alt="" class="post__img">
+                        <div class="post-info">
+                            <span class="post__categories"><a href="#">Pasta</a></span>
+                            <h3 class="post__title"><a href="#">Creamy Chicken Pasta</a>
+                            </h3>
+                            <div class="post__meta">
+                                <span class="meta__time">20 min</span>
+                                <span class="meta__difficulty">Easy</span>
+                            </div>
+                            <span class="author__wrapper">
+                                <img src="assets/author__avatar/erik_brown.png" alt="" class="post__author-img">
+                                <span class="post__info">
+                                    <span class="post__author">Erik Brown</span>
+                                    <span class="post__date">February 4, 2022</span>
+                                </span>
+                            </span>
+                        </div> 
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="book-of-the-month">
+        <div class="book-of-the-month__container">
+            <div class="book-img__container">
+                <img src="assets/book__img.webp" alt="">
+            </div>
+            <div class="book-info__container">
+                <h2 class="book-title">Book of the Month</h2>
+                <p class="book-info">This is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people who need some type to visualize what the actual copy might look like if it were real content.</p>
+                <div class="buy-button">
+                    <div class="buy-button__container"><a href="#">Buy now for $59</a>                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="recipes">
+        <div class="recipes__container">
+            <div class="recipes__grid">
+                <div class="post__container">
+                    <article id="post-7" class="post">
+                        <img src="assets/recipe__img/7.webp" alt="" class="post__img">
+                        <div class="post-info">
+                            <span class="post__categories"><a href="#">Cocktails</a></span>
+                            <h3 class="post__title"><a href="#">Mint & Raspberry Julep</a></h3>
+                            <div class="post__meta">
+                                <span class="meta__time">10 min</span>
+                                <span class="meta__difficulty">Easy</span>
+                            </div>
+                            <span class="author__wrapper">
+                                <img src="assets/author__avatar/pavel_ciorici.png" alt="" class="post__author-img">
+                                <span class="post__info">
+                                    <span class="post__author">Pavel Ciorici</span>
+                                    <span class="post__date">January 13, 2022</span>
+                                </span>
+                            </span>
+                        </div> 
+                    </article>
+                </div>
+                <div class="post__container">
+                    <article id="post-8" class="post">
+                        <img src="assets/recipe__img/8.webp" alt="" class="post__img">
+                        <div class="post-info">
+                            <span class="post__categories"><a href="#">Desserts</a></span>
+                            <h3 class="post__title"><a href="#">Pistachio Pavlova Meringue Cakes</a>
+                            </h3>
+                            <div class="post__meta">
+                                <span class="meta__time">35 min</span>
+                                <span class="meta__difficulty">Medium</span>
+                            </div>
+                            <span class="author__wrapper">
+                                <img src="assets/author__avatar/erik_brown.png" alt="" class="post__author-img">
+                                <span class="post__info">
+                                    <span class="post__author">Erik Brown</span>
+                                    <span class="post__date">November 23, 2021</span>
+                                </span>
+                            </span>
+                        </div> 
+                    </article>
+                </div>
+                <div class="post__container">
+                    <article id="post-9" class="post">
+                        <img src="assets/recipe__img/9.webp" alt="" class="post__img">
+                        <div class="post-info">
+                            <span class="post__categories"><a href="#">Salads</a></span>
+                            <h3 class="post__title"><a href="#">Caprese Salad</a>
+                            </h3>
+                            <div class="post__meta">
+                                <span class="meta__time">10 min</span>
+                                <span class="meta__difficulty">Easy</span>
+                            </div>
+                            <span class="author__wrapper">
+                                <img src="assets/author__avatar/erik_brown.png" alt="" class="post__author-img">
+                                <span class="post__info">
+                                    <span class="post__author">Erik Brown</span>
+                                    <span class="post__date">November 10, 2021</span>
+                                </span>
+                            </span>
+                        </div> 
+                    </article>
+                </div>
+                <div class="post__container">
+                    <article id="post-10" class="post">
+                        <img src="assets/recipe__img/10.webp" alt="" class="post__img">
+                        <div class="post-info">
+                            <span class="post__categories"><a href="#">Pasta</a></span>
+                            <h3 class="post__title"><a href="#">Spaghetti with Mushroom Sauce</a>
+                            </h3>
+                            <div class="post__meta">
+                                <span class="meta__time">15 min</span>
+                                <span class="meta__difficulty">Easy</span>
+                            </div>
+                            <span class="author__wrapper">
+                                <img src="assets/author__avatar/erik_brown.png" alt="" class="post__author-img">
+                                <span class="post__info">
+                                    <span class="post__author">Erik Brown</span>
+                                    <span class="post__date">September 16, 2021</span>
+                                </span>
+                            </span>
+                        </div> 
+                    </article>
+                </div>
+                <div class="post__container">
+                    <article id="post-11" class="post">
+                        <img src="assets/recipe__img/11.webp" alt="" class="post__img">
+                        <div class="post-info">
+                            <span class="post__categories"><a href="#">Main</a></span>
+                            <h3 class="post__title"><a href="#">Veggie Burgers with Avocado Green Harissa</a>
+                            </h3>
+                            <div class="post__meta">
+                                <span class="meta__time">40 min</span>
+                                <span class="meta__difficulty">Medium</span>
+                            </div>
+                            <span class="author__wrapper">
+                                <img src="assets/author__avatar/erik_brown.png" alt="" class="post__author-img">
+                                <span class="post__info">
+                                    <span class="post__author">Erik Brown</span>
+                                    <span class="post__date">August 9, 2021</span>
+                                </span>
+                            </span>
+                        </div> 
+                    </article>
+                </div>
+                <div class="post__container">
+                    <article id="post-12" class="post">
+                        <img src="assets/recipe__img/12.webp" alt="" class="post__img">
+                        <div class="post-info">
+                            <span class="post__categories"><a href="#">Soups</a></span>
+                            <h3 class="post__title"><a href="#">Roasted Carrot Soup</a>
+                            </h3>
+                            <div class="post__meta">
+                                <span class="meta__time">40 min</span>
+                                <span class="meta__difficulty">Medium</span>
+                            </div>
+                            <span class="author__wrapper">
+                                <img src="assets/author__avatar/erik_brown.png" alt="" class="post__author-img">
+                                <span class="post__info">
+                                    <span class="post__author">Erik Brown</span>
+                                    <span class="post__date">April 3, 2021</span>
+                                </span>
+                            </span>
+                        </div> 
+                    </article>
+                </div>
+            </div>
+            <div class="load-more-bttn">
+                <a href="#">Load More</a>
+            </div>
+        </div>
+    </section>
+    <div class="footer__sub">
+        <img class="footer_bg" src="assets/footer_bg.webp">
+        <div class="block">
+            <h1 class="block__text">Never Miss a Recipe</h1>
+            <h3 class="block__description">Sign up with your email address to receive new recipes each week.</h3>
+            <div class="block__submit">
+                <form action="#">
+                    <input placeholder="Type your email..." type="email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <section class="categories">
+        <div class="categories__container">
+            <h2 class="section__title">Categories</h2>
+            <div class="categories-element__container">
+                <div id="categories-1" class="categories-element" style="background-image: url(assets/categoires__img/1.jpg);">
+                        <div class="categories__info">
+                            <div class="categories__name">Main</div>
+                            <em class="categories__count">3 recipes</em>
+                        </div>
+                </div>
+                <div id="categories-2" class="categories-element" style="background-image: url(assets/categoires__img/2.webp);">
+                    <div class="categories__info">
+                        <div class="categories__name">Appetizers</div>
+                        <em class="categories__count">2 recipes</em>
+                    </div>                
+                </div>
+                <div id="categories-3" class="categories-element" style="background-image: url(assets/categoires__img/3.webp);">
+                    <div class="categories__info">
+                        <div class="categories__name">Desserts</div>
+                        <em class="categories__count">6 recipes</em>
+                    </div>       
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="latest-video">
+        <div class="latest-video__container">
+            <h2 class="section__title">Latest Video</h2>
+            <div class="video-bg__container">
+                <img class="video-bg" src="assets/video-play__bg.webp">                
+            </div>
+        </div>
+    </section>
+    <section class="bottles-rec">
+        <div class="bottles-rec__container">
+            <div class="product__container">
+                <img src="https://i0.wp.com/demo.wpzoom.com/cookbook/files/2014/01/balance-citrus-bomb.png?resize=300%2C300&ssl=1" alt="" class="bottle-img">
+                <h2 class="product__title">Citrus Bomb</h2>
+                <h3 class="product__price">$7.50</h3>
+            </div>
+            <div class="product__container">
+                <img src="https://i0.wp.com/demo.wpzoom.com/cookbook/files/2014/01/balance-mango-fusion.png?resize=750%2C750&ssl=1" alt="" class="bottle-img">
+                <h2 class="product__title">Mango Fusion</h2>
+                <h3 class="product__price">$7.50</h3>
+            </div>
+            <div class="product__container">
+                <img src="https://i0.wp.com/demo.wpzoom.com/cookbook/files/2014/01/balance-exotic-strawberry.png?resize=380%2C380&ssl=1" alt="" class="bottle-img">
+                <h2 class="product__title">Exotic Strawberry</h2>
+                <h3 class="product__price">$7.50</h3>
+            </div>
+        </div>
+        <div class="view-all-items-bttn">
+            <a href="#">View all items</a>
+        </div>
+    </section>
+    <section class="more-about-cockails">
+        <div class="about-cocktails__container">
+            <h2 class="section__title">Let's Party</h2>
+            <div class="content__container">
+                <article id="post-13" class="post">
+                    <img src="assets/recipe__img/13.webp" alt="" class="element__img">
+                    <div class="post-info">
+                        <span class="post__categories"><a href="#">Cocktails</a></span>
+                        <h3 class="post__title"><a href="#">Rosemary & Honey Whiskey Cocktail</a></h3>
+                        <div class="post__meta">
+                            <span class="meta__time">15 min</span>
+                            <span class="meta__difficulty">Easy</span>
+                        </div>
+                        <div class="read-more-bttn"><a href="#">Read more</a></div>
+                    </div> 
+                </article>
+                <article id="post-13" class="post">
+                    <img src="assets/recipe__img/14.webp" alt="" class="element__img">
+                    <div class="post-info">
+                        <span class="post__categories"><a href="#">Cocktails</a></span>
+                        <h3 class="post__title"><a href="#">Moscow Mule Cocktail</a></h3>
+                        <div class="post__meta">
+                            <span class="meta__time">10 min</span>
+                            <span class="meta__difficulty">Easy</span>
+                        </div>
+                        <div class="read-more-bttn"><a href="#">Read more</a></div>
+                    </div> 
+                </article>
+                <article id="post-13" class="post">
+                    <img src="assets/recipe__img/15.webp" alt="" class="element__img">
+                    <div class="post-info">
+                        <span class="post__categories"><a href="#">Cocktails</a></span>
+                        <h3 class="post__title"><a href="#">Blood Orange Mimosa</a></h3>
+                        <div class="post__meta">
+                            <span class="meta__time">15 min</span>
+                            <span class="meta__difficulty">Easy</span>
+                        </div>
+                        <div class="read-more-bttn"><a href="#">Read more</a></div>
+                    </div> 
+                </article>
+                <article id="post-13" class="post">
+                    <img src="assets/recipe__img/16.webp" alt="" class="element__img">
+                    <div class="post-info">
+                        <span class="post__categories"><a href="#">Cocktails</a></span>
+                        <h3 class="post__title"><a href="#">Blood Orange Mimosa</a></h3>
+                        <div class="post__meta">
+                            <span class="meta__time">10 min</span>
+                            <span class="meta__difficulty">Easy</span>
+                        </div>
+                        <div class="read-more-bttn"><a href="#">Read more</a></div>
+                    </div> 
+                </article>
+            </div>
+        </div>
+    </section>
+</body>
+<footer class="footer">
+    <div class="footer__sub">
+        <img class="footer_bg" src="assets/footer_bg.webp">
+        <div class="block">
+            <h1 class="block__text">Never Miss a Recipe</h1>
+            <h3 class="block__description">Sign up with your email address to receive new recipes each week.</h3>
+            <div class="block__submit">
+                <form action="#">
+                    <input placeholder="Type your email..." type="email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer__insta">
+        <ul class="insta-photo__list">
+            <li class="insta-photo__item"><a href="#"><img src="assets/insta/1.jpg" alt=""></a></li>
+            <li class="insta-photo__item"><a href="#"><img src="assets/insta/2.jpg" alt=""></a></li>
+            <li class="insta-photo__item"><a href="#"><img src="assets/insta/3.jpg" alt=""></a></li>
+            <li class="insta-photo__item"><a href="#"><img src="assets/insta/4.jpg" alt=""></a></li>
+            <li class="insta-photo__item"><a href="#"><img src="assets/insta/5.jpg" alt=""></a></li>
+            <li class="insta-photo__item"><a href="#"><img src="assets/insta/6.jpg" alt=""></a></li>
+        </ul>
+        <div class="inst-button">
+            <a href="#">View on Instagram</a>
+        </div>
+    </div>
+    <div class="footer__main">
+        <div class="footer__main_wrapper">
+            <div class="about-site">
+                <h3 class="about-site__title">About Cookbook</h3>
+                <p class="about-site__greeting">Welcome on our food blog!</p>
+                <p class="about-site__text">This is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people who need some type to visualize what the actual copy might look like if it were real content.</p>
+            </div>
+            <div class="nav-mini">
+                <h3 class="nav-title">Navigate</h3>
+                <ul class="footer-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="subscription">
+                <h3 class="subscription__title">Subscribe to Our Newsletter</h3>
+                <p class="subscription__info">Subscribe to our newsletter and receive new recipes in your inbox.</p>
+                <form action="#">
+                    <input placeholder="Your name" type="text">
+                    <input placeholder="Email *" type="email">
+                    <button type="submit">Subscribe!</button>
+                </form>
+            </div>
+        </div>
+        </div>
+    <div class="footer__nav">
+        <div class="nav__container">
+            <div class="nav__title">CookBook</div>
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#">Home</a></li>
+                <li class="nav__item"><a href="#">About</a></li>
+                <li class="nav__item"><a href="#">Contact</a></li>
+                <li class="nav__item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <ul class="social-media__list">
+                <li class="social-media__item"><a href="#"><img src="assets/social-media__icon/facebook.png" alt=""></a></li>
+                <li class="social-media__item"><a href="#"><img src="assets/social-media__icon/instagram.png" alt=""></a></li>
+                <li class="social-media__item"><a href="#"><img src="assets/social-media__icon/youtube.png" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer__add-info">
+        <div class="footer__info-container">
+            <span class="copyright">Copyright © 2023 CookBook</span>
+            <span class="designed-by">Designed by <a href="#">WPZOOM</a></span>
+        </div>
+    </div>
+</footer>
+</html>
